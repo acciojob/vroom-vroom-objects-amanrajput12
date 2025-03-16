@@ -10,12 +10,12 @@ class Car{
 }
 
 class SportsCar extends Car{
-   constructor(make,model,topspeed){
+   constructor(make,model,topSpeed){
      super(make,model);
-	   this.topspeed=topspeed;
+	   this.topSpeed=topSpeed;
    }
 	getTopSpeed(){
- return this.topspeed;
+ return this.topSpeed;
 	}
 }
 
