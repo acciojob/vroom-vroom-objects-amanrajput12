@@ -5,7 +5,7 @@ class Car{
 	 this.model=model;
  }
 	getMakeModel(){
-    retrun 'Make is '+this.make +" and model is "+this.model;
+    return 'Make is '+this.make +" and model is "+this.model;
 }
 }
 
