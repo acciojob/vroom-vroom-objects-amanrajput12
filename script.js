@@ -5,7 +5,7 @@ class Car{
 	 this.model=model;
  }
 	getMakeModel(){
-    return 'Make is '+this.make +" and model is "+this.model;
+    return this.make +this.model;
 }
 }
 
@@ -15,7 +15,7 @@ class SportsCar extends Car{
 	   this.topspeed=topspeed;
    }
 	getTopSpeed(){
- return "top speed of car is "+this.topspeed;
+ return this.topspeed;
 	}
 }
 
